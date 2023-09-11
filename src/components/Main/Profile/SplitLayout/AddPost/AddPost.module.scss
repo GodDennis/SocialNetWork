@@ -1,0 +1,54 @@
+.actionWrapper {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 12px;
+  position: relative;
+  margin: 10px 0;
+  padding: 10px 0 10px 10px;
+  height: 100px;
+  width: 550px;
+  overflow: hidden;
+}
+.post {
+  resize: none;
+  margin-right: 100px;
+  // padding: 10px 0 10px 10px;
+  width: 75%;
+  height: 100%;
+  &::-webkit-scrollbar {
+    width: 0;
+  }
+}
+.icon {
+  position: absolute;
+  top: 30px;
+  transform: translate(0%, -50%);
+  left: 0;
+  cursor: pointer;
+  color: #99a2ad;
+  &:hover {
+    color: #818c99;
+  }
+}
+.photo {
+  left: 430px;
+}
+.video {
+  left: 460px;
+}
+.audio {
+  left: 490px;
+}
+.btn {
+  width: 118px;
+  transform: translate(0, -50%);
+  border-radius: 8px;
+  color: #fff;
+  line-height: 32px;
+  font-size: 13px;
+  height: 32px;
+  position: absolute;
+  background-color: #447bba;
+  top: 75px;
+  left: 415px;
+}

@@ -1,0 +1,47 @@
+.users {
+  min-height: 90vh;
+  width: 550px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+}
+
+.flex__container {
+  padding: 20px 20px;
+  display: flex;
+  gap: 15px;
+  border-bottom: 1px solid #dce1e6;
+}
+
+.avatar {
+  display: block;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+
+.name {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 5px 0 10px 0;
+}
+.description {
+  display: inline-block;
+  margin: 0 0 10px 0;
+  cursor: pointer;
+  color: #626d7a;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+.follow {
+  display: block;
+  color: #626d7a;
+  font-size: 16px;
+  background-color: #5182bb;
+  color: #fff;
+  width: 100px;
+  height: 28px;
+  border-radius: 6px;
+}
