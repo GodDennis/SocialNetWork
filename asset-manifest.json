@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/SocialNetWork/static/css/main.0d07e920.css",
+    "main.js": "/SocialNetWork/static/js/main.575488d6.js",
+    "static/js/787.28cb0dcd.chunk.js": "/SocialNetWork/static/js/787.28cb0dcd.chunk.js",
+    "static/media/camera_200.png": "/SocialNetWork/static/media/camera_200.77e62bcebb96608d55ea.png",
+    "index.html": "/SocialNetWork/index.html",
+    "main.0d07e920.css.map": "/SocialNetWork/static/css/main.0d07e920.css.map",
+    "main.575488d6.js.map": "/SocialNetWork/static/js/main.575488d6.js.map",
+    "787.28cb0dcd.chunk.js.map": "/SocialNetWork/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d07e920.css",
+    "static/js/main.575488d6.js"
+  ]
+}
